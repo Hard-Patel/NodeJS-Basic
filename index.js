@@ -3,11 +3,6 @@ const morgan = require("morgan");
 const express = require("express");
 const app = express();
 
-mongoose
-  .connect("mongodb://localhost/Vidly")
-  .then(() => console.log("Connected to MongoDB..."))
-  .catch(() => console.log("Error connecting to the DB"));
-
 app.use(express.json());
 
 app.use(morgan("tiny"));
