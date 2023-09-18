@@ -1,24 +1,20 @@
 {
   "name": "vidly",
   "version": "1.0.0",
-  "description": "NodeJS Basic app created for learning purpose and used Express (NodejS) and MongoDB for the same.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/Hard-Patel/NodeJS-Basic.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hard-Patel/NodeJS-Basic/issues"
-  },
-  "homepage": "https://github.com/Hard-Patel/NodeJS-Basic#readme",
   "dependencies": {
-    "express": "^4.18.2",
+    "bcrypt": "^5.1.1",
+    "express": "^4.16.2",
+    "joi": "^13.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.0",
     "morgan": "^1.10.0"
   }
